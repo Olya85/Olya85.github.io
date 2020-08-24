@@ -60,6 +60,7 @@ section {
     text-transform: uppercase;
     letter-spacing: 2.52px;
     transition: ease-in .25s all;
+    border-radius: 30px;
 }
 
 .header button:hover {
@@ -111,6 +112,7 @@ section {
     text-transform: uppercase;
     letter-spacing: 2.52px;
     transition: ease-in .25s all;
+    border-radius: 30px;
 }
 
 .about-text button:hover {
@@ -210,11 +212,14 @@ section {
     text-transform: uppercase;
     letter-spacing: 3.2px;
     transition: ease .25s;
+    border-radius: 5px;
+    border: 2px solid #000;
 }
 
 .company-block button:hover {
-    background-color: #ccc;
-
+    background-color:grey;
+    color: #000;
+    
 }
 
 .send {
@@ -246,6 +251,7 @@ section {
 }
 
 input  {
+    border-radius: 30px;
     margin-right: 49px;
     background-color: transparent;
     padding: 27px 32px;
@@ -253,9 +259,11 @@ input  {
     font-size: 22px;
     font-weight: 400;
     letter-spacing: 3.08px;
+    border: 2px solid #000;
     }
 
 form button {
+    border-radius: 30px;
     cursor: pointer;
     border: none;
     padding: 27px 87px;
